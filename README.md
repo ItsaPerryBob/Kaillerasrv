@@ -10,7 +10,7 @@ sudo apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386
 before
 Type in "ls" (no quotes) and hit enter. Hopefully you're going to see kaillerasrv.tar.gz. If so, go to the next step. If not, try and download it again. (Alternatively, you can download it to your local computer, then use an ftp program to transfer it to your shell.)
 
-Type "tar -xzf kaillerasrv.tar.gz" and hit enter. You should now have a few more files in your home directory.
+Type "tar -zxf kaillerasrv.tar.gz" and hit enter. You should now have a few more files in your home directory.
 
 Next, type "chmod +x kaillerasrv" and hit enter.
 
