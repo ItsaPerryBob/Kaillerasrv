@@ -3,9 +3,9 @@ Kaillera from http://www.kaillera.com/
 Rights from the coder at kaillera.com, only researching this project.
 
 To use kaillerasrv u need to do these commands in Ubuntu:
-sudo dpkg --add-architecture i386
-sudo apt-get update
-sudo apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386
+sudo add-apt-repository universe
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install libncurses5 libstdc++6 zlib1g
 
 before
 Type in "ls" (no quotes) and hit enter. Hopefully you're going to see kaillerasrv.tar.gz. If so, go to the next step. If not, try and download it again. (Alternatively, you can download it to your local computer, then use an ftp program to transfer it to your shell.)
